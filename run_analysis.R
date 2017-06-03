@@ -1,9 +1,10 @@
 # ------------------------------------------------------------------------------
-# Process the "Human Activity Recognition Using Smartphones" dataset
+# Cleanse & Transform "Human Activity Recognition Using Smartphones" dataset
 #
-# Did as part of corsera project work
+# Getting & Cleansing Data - corsera project work
 # Author: Ramesh Konatala
 # ------------------------------------------------------------------------------
+
 # If required packages are not present then install them.
 
 if("dplyr" %in% rownames(installed.packages()) == FALSE) {install.packages("dplyr")};library(dplyr)
